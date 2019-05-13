@@ -24,4 +24,42 @@
 
 /* Positioning Classes */
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 15px;
+  grid-template-areas:
+    "brand brand archive"
+    "bottom1 bottom2 bottom3";
+  max-height: 1000px;
+}
+
+.shadow1 {
+  grid-area: brand;
+}
+
+.shadow2 {
+  grid-area: archive;
+}
+
+.shadow3 {
+  grid-area: bottom1;
+}
+
+.shadow4 {
+  grid-area: bottom2;
+}
+
+.shadow5 {
+  grid-area: bottom3;
+}
+
+.border_right {
+  float: left;
+  margin-right: 5em;
+}
+
+
+
 

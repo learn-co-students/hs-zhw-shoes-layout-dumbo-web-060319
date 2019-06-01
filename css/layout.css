@@ -24,4 +24,26 @@
 
 /* Positioning Classes */
 
+.cl-1{
+  width:64.666%;
+  float:left;
+  margin:1%;
+  height: 100%;
+}
+
+.cl2{
+  width:31.333%;
+  float: left;
+  margin: 1% 1% 0;
+  
+}
+
+.font{
+  
+  height: 100%
+}
+
+.clearfix{
+  clear: both;
+}
 
